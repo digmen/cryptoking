@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.languageList {
+    display: flex;
+    gap: 12px;
+}
+
+.languageList_li,
+.nav_link_btn,
+.burgerMenu:hover {
+    cursor: pointer;
+}
+
+.navList {
+    display: flex;
+    gap: 24px;
+}
+
+.nav_link_btn {
+    background-color: #84E0E3;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    line-height: normal;
+}
+
+.burgerMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.burgerLine {
+    background-color: #FFFFFF;
+    width: 45px;
+    height: 3px;
+}
