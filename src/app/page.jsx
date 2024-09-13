@@ -12,8 +12,8 @@ export default function Home() {
                     </div>
                 </div>
                 <div className='home_hero_title'>
-                    <h1>Emp<span className='home_hero_title_span'>irex</span></h1>
-                    <span>NEW METAVERSE GAME</span>
+                    <h1>Emp<span className='home_hero_title_span_in_h1'>irex</span></h1>
+                    <span className='home_hero_title_span'>NEW METAVERSE GAME</span>
                 </div>
             </div>
         </div>
