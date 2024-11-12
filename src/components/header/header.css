@@ -1,43 +1,37 @@
 .header {
+    width: 100vw;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    gap: 30px;
+    gap: 82px;
+    margin-top: 23px;
+    padding-right: 140px;
 }
 
-.languageList {
+
+.mainNav {
     display: flex;
-    gap: 12px;
+    gap: 60px;
 }
 
-.languageList_li,
 .nav_link_btn,
-.burgerMenu:hover {
-    cursor: pointer;
-}
-
-.navList {
-    display: flex;
-    gap: 24px;
-}
-
-.nav_link_btn {
-    background-color: #84E0E3;
-    padding: 15px 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    line-height: normal;
+.languageList_li {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #383838;
 }
 
 .burgerMenu {
     display: flex;
     flex-direction: column;
     gap: 11px;
+    cursor: pointer;
 }
 
 .burgerLine {
-    background-color: #FFFFFF;
-    width: 45px;
-    height: 3px;
+    height: 2.5px;
+    background-color: #383838;
+    width: 40px;
 }

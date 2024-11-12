@@ -4,7 +4,10 @@ import './header.css';
 export default function Header() {
     return (
         <header className="header">
-            <nav className="languageSwitcher">
+            <nav className="mainNav">
+                <Link className='nav_link_btn' href="#">
+                    CONTACT US
+                </Link>
                 <ul className="languageList">
                     <li className='languageList_li'>EN</li>
                     {/* <li className='languageList_li'>RU</li>
@@ -14,25 +17,11 @@ export default function Header() {
                     <li className='languageList_li'>FR</li> */}
                 </ul>
             </nav>
-            <nav className="mainNav">
-                <ul className="navList">
-                    <li>
-                        <Link className='nav_link_btn' href="/earn-to-play">
-                            EARN TO PLAY
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className='nav_link_btn' href="/contact-us">
-                            CONTACT US
-                        </Link>
-                    </li>
-                </ul>
-            </nav>
-            <div className="burgerMenu">
+            {/* <div className="burgerMenu">
                 <div className="burgerLine"></div>
                 <div className="burgerLine"></div>
                 <div className="burgerLine"></div>
-            </div>
+            </div> */}
         </header>
     );
 }
